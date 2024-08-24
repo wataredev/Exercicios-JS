@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="aula3.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="atividade1">
+        <p>Calculadora</p>
+        <input type="number" name="" id="numeroUm" placeholder="1 - Número">
+        <input type="number" name="" id="numeroDois" placeholder="2 - Número">
+        <button onclick="soma()">+</button>
+        <button onclick="subtrair()">-</button>
+        <button onclick="multiplicar()">*</button>
+        <button onclick="divisao()">/</button>
+        <textarea name="" id="resultadoConta" placeholder="Resultado" style="resize: none;" readonly></textarea>
+        </div>
+        <div class="atividade2">
+            <p>Verifica Primo</p>
+            <input type="number" name="" id="numeroPrimo" placeholder="Numero aqui">
+            <button type="submit" onclick="primo()">Resultado</button>
+            <textarea name="" id="resultadoPrimo" style="resize: none;" placeholder="Resultado" readonly></textarea>
+        </div>
+        <div class="atividade3">
+            <p>Conta Caracteres</p>
+            <input type="text" name="" id="stringCaractere" placeholder="Texto aqui (@#$%&)">
+            <button type="submit" onclick="caractere()">Resultado</button>
+            <textarea name="" id="resultadoCaractere" style="resize: none;" placeholder="Resultado" readonly></textarea>
+        </div>
+        <div class="atividade4">
+            <p>Media notas</p>
+            <input type="number" name="" id="nota1" min="0" max="10" placeholder="1 - Nota">
+            <input type="number" name="" id="nota2" min="0" max="10" placeholder="2 - Nota">
+            <input type="number" name="" id="nota3" min="0" max="10" placeholder="3 - Nota">
+            <input type="number" name="" id="nota4" min="0" max="10" placeholder="4 - Nota">
+            <button type="submit" onclick="media()">Resultado</button>
+            <textarea name="" id="resultadoNota" style="resize: none;" placeholder="Resultado" readonly></textarea>
+        </div>
+        <div class="atividade5">
+            <p>Numero secreto
+            </p>
+            <input type="number" name="" id="numeroAleatorio" placeholder="Entre 1 e 100">
+            <button type="submit" onclick="chutar()">Resultado</button>
+            <button type="submit" onclick="novoNumero()">Novo número</button>
+            <textarea name="" id="resultadoAleatorio" style="resize: none;" placeholder="Resultado" readonly></textarea>
+            
+        </div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>
