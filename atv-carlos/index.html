@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Funcionários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Adicionar Funcionário</h1>
+
+    <input type="text" id="name" placeholder="Nome do Funcionário">
+    
+    <select id="type">
+        <option value="Engenheiro">Engenheiro</option>
+        <option value="Designer">Designer</option>
+        <option value="Gerente">Gerente</option>
+        <option value="Desenvolvedor">Desenvolvedor</option>
+    </select>
+
+    <button onclick="adicionarFuncionario()">Adicionar Funcionário</button>
+
+    <div class="avatar" id="avatar"></div>
+    <div class="message" id="message"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -62,10 +62,10 @@ function caractere() {
 
 //Atividade 4
 function media() {
-    let nota1 = parseInt(document.getElementById("nota1").value)
-    let nota2 = parseInt(document.getElementById("nota2").value)
-    let nota3 = parseInt(document.getElementById("nota3").value)
-    let nota4 = parseInt(document.getElementById("nota4").value)
+    let nota1 = parseInt(document.querySelector("#nota1").value)
+    let nota2 = parseInt(document.querySelector("#nota2").value)
+    let nota3 = parseInt(document.querySelector("#nota3").value)
+    let nota4 = parseInt(document.querySelector("#nota4").value)
 
     if (nota1 >= 11 || nota2 >= 11 || nota3 >= 11 || nota4 >= 11) {
         document.getElementById("resultadoNota").value = "Não existe nota maior que 10"
@@ -102,3 +102,26 @@ function novoNumero() {
     var numeroEscolhido = parseInt((Math.random() * (100 - 1 + 1)));
     console.log(numeroEscolhido);
 }
+
+/*function numeroPrimo2(numero) {
+    if (numero <= 1) {
+        console.log(numero + " não é um número primo.");
+        return false;
+    }
+    if (numero === 2) {
+        console.log(numero + " é um número primo.");
+        return true;
+    }
+
+    for (let index = 2; index <= Math.sqrt(numero); index++) {
+        if (numero % index === 0) {
+            console.log(numero + " não é um número primo.");
+            return false;
+        }
+    }
+
+    console.log(numero + " é um número primo.");
+    return true;
+}
+
+numeroPrimo2(6); */

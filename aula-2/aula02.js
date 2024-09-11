@@ -41,7 +41,7 @@ console.log(somaTotal);
 console.log("");
 console.log("");
 
-let palavra = "paralelepipedo";
+let palavra = "seisodnwd";
 let palavraSemVogais = palavra.replace(/[aeiou]/gi, "");
 console.log(palavraSemVogais);
 
